@@ -5,7 +5,7 @@ import {filterCatalog,variantKind} from '../catalog.js';
 
 test('initial catalogue contains the Mobius original and excludes alternate versions',()=>{
   const initial=filterCatalog(SONGS);
-  assert.equal(initial.length,108);
+  assert.equal(initial.length,109);
   assert.ok(initial.some(s=>s.title==='メビウス・メモリー'));
   assert.ok(initial.every(s=>variantKind(s)===null));
 });
@@ -13,11 +13,11 @@ test('initial catalogue contains the Mobius original and excludes alternate vers
 test('language and remix checkboxes can be enabled independently',()=>{
   const languages=filterCatalog(SONGS,{includeLanguages:true});
   const remixes=filterCatalog(SONGS,{includeRemixes:true});
-  assert.equal(languages.length,112);
-  assert.equal(remixes.length,133);
+  assert.equal(languages.length,113);
+  assert.equal(remixes.length,134);
   assert.ok(languages.every(s=>variantKind(s)!=='remix'));
   assert.ok(remixes.every(s=>variantKind(s)!=='language'));
-  assert.equal(filterCatalog(SONGS,{includeLanguages:true,includeRemixes:true}).length,137);
+  assert.equal(filterCatalog(SONGS,{includeLanguages:true,includeRemixes:true}).length,138);
 });
 
 test('all 18 Mobius arrangements have preview links and are controlled by the remix checkbox',()=>{

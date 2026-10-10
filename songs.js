@@ -1,6 +1,6 @@
-// Verified public releases, official videos and live reports, 2026-10-09.
+// Verified public releases, official videos and live reports, 2026-10-10.
 // dateKind=video/live uses publication/debut dates, not record release dates.
-export const CATALOG_DATE = '2026-10-09';
+export const CATALOG_DATE = '2026-10-10';
 export const SONGS = [
   {
     "id": "s-9239bf67d5b6e00e",
@@ -2422,6 +2422,25 @@ export const SONGS = [
         "title": "レインボウフェノメノン",
         "url": "https://2zicon.tokyo/discography/magor_1st_album/",
         "date": "2018-01-10"
+      }
+    ]
+  },
+  {
+    "id": "s-3c2eb6aa5c190d47",
+    "title": "集え！フロンティアーナ",
+    "date": "2017-12-19",
+    "release": "BBG!（虹のコンキスタドール虹組）",
+    "artworkSource": "https://livedoor.blogimg.jp/mosaicwavcom/imgs/e/c/ec8222da.jpg",
+    "artwork": "./jackets/2fd40c0ae7b9bbf1.webp",
+    "sources": [
+      {
+        "title": "MOSAIC.WAV公式・ベボガ!「集え!フロンティアーナ」楽曲提供について",
+        "url": "https://www.mosaicwav.com/archives/1069033220.html",
+        "date": "2017-12-19"
+      },
+      {
+        "title": "虹のコンキスタドール公式ブログ・虹組楽曲紹介",
+        "url": "https://ameblo.jp/2zicon/entry-12808480263.html"
       }
     ]
   },
