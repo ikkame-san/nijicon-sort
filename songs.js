@@ -1,7 +1,26 @@
-// Verified public releases, official videos and live reports, 2026-10-10.
+// Existing releases/videos retained; requested new release checked 2026-10-25.
 // dateKind=video/live uses publication/debut dates, not record release dates.
-export const CATALOG_DATE = '2026-10-10';
+export const CATALOG_DATE = '2026-10-25';
 export const SONGS = [
+  {
+    "id": "s-b50f3977d39424d8",
+    "title": "夢見心地♡ランデヴー",
+    "date": "2026-10-26",
+    "release": "夢見心地♡ランデヴー",
+    "artworkSource": "https://img.popnroll.tv/uploads/news_image/image/292308/medium_niji_jacket_rendezvous.png",
+    "artwork": "./jackets/84666e22c97e7e4a.webp",
+    "sources": [
+      {
+        "title": "虹コン公式・2ヶ月連続配信リリース告知",
+        "url": "https://2zicon.tokyo/information/2026au_release/",
+        "date": "2026-10-26"
+      },
+      {
+        "title": "配信告知・曲名付きジャケット掲載",
+        "url": "https://popnroll.tv/articles/48068"
+      }
+    ]
+  },
   {
     "id": "s-9239bf67d5b6e00e",
     "title": "メビウス・メモリー",
